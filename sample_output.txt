@@ -1,0 +1,56 @@
+(venv) PS D:\pyenv312\RAG\new_try> python main.py
+D:\pyenv312\venv\Lib\site-packages\transformers\utils\hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+ANANDA
+
+Processing text from sample_document.txt...
+Created 5 chunks
+Generated embeddings
+Added 5 new chunks to the database
+Added documents to vector store
+Database contains 5 chunks
+
+RAG System Ready! Type 'quit' to exit.
+
+Enter your question: who is arun kumar?
+Processing query: who is arun kumar?
+
+Answer: Dr. Arunkumar Gopu.
+Sources: sample_document.txt
+
+Enter your question: what do you know about him?
+Processing query: what do you know about him?
+
+Answer: Based on the provided context, here's what I know about Dr. Arunkumar Gopu:
+
+1. He is an Associate Professor at Dayananda Sagar University.      
+2. His area of expertise includes cloud computing, fog computing, edge computing, bio-inspired algorithms, multi-objective optimization, and machine learning.
+3. He has a strong academic background, having completed his undergraduate degree in Information Technology from KS Rangasamy College of Technology (affiliated to Anna University) and pursuing his postgraduate degree in Computer Science Engineering at SRM University.     
+4. He holds a Ph.D. from VIT University, Chennai, with a thesis titled "Multi-Objective Virtual Machine Placement using Evolutionary Algorithms in Distributed laaS Cloud".
+5. Dr. Gopu has nine years of experience in academia and has made significant contributions to his field through research publications (eight papers in esteemed journals and conferences).
+6. He has served as the Single Point of Contact (SPOC) for Amazon Web Services (AWS) at KL University.
+7. As a course coordinator, he efficiently managed a course with 1,400 students, demonstrating excellent coordination skills.
+8. Dr. Gopu led the High-Performance Computing (HPC) lab at VIT University, ensuring maximum research output by implementing an open stack cloud platform.
+9. He is known for his passion for teaching and drive for research, consistently striving to inspire students and contribute to the advancement of his field.
+
+Overall, Dr. Arunkumar Gopu appears to be a highly accomplished and experienced faculty member with a strong background in computer science and engineering, as well as leadership skills.
+Sources: sample_document.txt
+
+Enter your question: how can i contact dsu?
+Processing query: how can i contact dsu?
+
+Answer: You can contact D SU through various means:
+
+1. Phone: 080 46461800 / +91 6366885507
+2. E-mail: admissions@dsu.edu.in
+4. DSU City Innovation Campus: Administrative & Main Admission office, Kudlu Gate, Hosur Road, Bengaluru-560 068
+5. DSU Main Campus: Devarakaggalahalli, Harohalli, Kanakapura Road, Ramanagara Dt., Bengaluru-562 112
+
+You can also contact the university through their online degree programs' mail id and phone number:
+
+Mail id: admissions@dsuonline.com
+Ph No: +91 - 9880147004
+Sources: sample_document.txt
+
+Enter your question: exit
+(venv) PS D:\pyenv312\RAG\new_try> 
